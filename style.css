@@ -1,3 +1,9 @@
+a {
+  color: rgb(117, 6, 108);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  text-transform:uppercase;
+}
 .grid-container {
   display:grid;
   grid-template-areas:
@@ -27,12 +33,7 @@ padding: 20px;
   .ex-container {
     padding: 100px;
   }
-/* .background-container{
- 
-  background-image: url(stories-matter-suzy-hazelwood.jpg);
-background-size: cover;
-height: 100%;
-} */
+
 .typeimg {
   width: 100%;
 }
@@ -49,110 +50,339 @@ height: 100%;
   display: flex-end;
   background-color: rgb(54, 52, 52);
 }
-.main_what {
-  grid-area: main;
+.footer-why-container {
+  grid-area: footer;
+  display: flex-end;
+  background-color:rgb(240,243,249, 1);
+}
+
+.sandbagging-title {
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .sandbagging-container {
 max-width: 1000px;
-
+padding-left: 10px;
+margin-left: -165px;
+color: black;
+background-color:rgb(240,243,249, 1);
+opacity: 65%;
+font-weight: bold;
+font-size: large;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.rain-img {
-  vertical-align: middle;
-  position: relative;
-}
-
+.sandbagging-container>p:first-child{margin-top:0px;}
 .rainwoman-container  {
 display: flex;
-background: rgb(0,0,0); 
-background: rgba(0,0,0,0.5);
+background-color:rgb(240,243,249, 1);
 color:#f1f1f1;
 width: 100%;
 padding: 20px;
 }
-  /*  
-  .section-container {
-    grid-area: img;
-  background-image: url(assets/tech-moms-working.jpg);  
-  background-size: cover;
-  height: 500px;
-} 
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-  .grid-container{
-    display: grid;
-    grid-template-areas:
-    'header'
-    'main'
-    'footer';
-    grid-row-gap: 15px
-    ;
-  }
-  .header-container {
-    grid-area: header;
-  }
-  .title {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: x-large;
-  }
-  .nav-container {
-    display: flex;
-      align-items: center;
-      justify-content: space-between;
-  }
-    .main-container {
-      grid-area: main;
-      display: grid;
-      grid-template-columns: 67% auto 30%; 
-      grid-template-areas:
-      'img . sidebar';
-      grid-gap: 10px;
-    } 
-    .headline {
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
-    .tagline {
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
-    #image {
-      grid-area: img;
-      background-size: cover;
-      height:fit-content;
-    }
-    #img-caption {
-  font-size: small;
-    }
-  #tribute-info {
-  
-  }
-  
+.late-nights-title {
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.late-nights-container {
+  display:flex;
+}
+.time-bombs-text-container {
+  max-width: 1000px;
+padding-left: 30px;
+margin-right: -200px;
+color: black;
+background-color:rgb(240,243,249, 1);
+opacity: 65%;
+font-weight: bold;
+font-size: large;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.time-bombs-container>p:first-child{margin-top:10px;}
 
-    .sidebar-container {
-      grid-area: sidebar;
+.pie-title {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.pie-and-beer-container {
+  display: flex;
+  max-width: 100%;
+    color: black;
+    background-color:rgb(240,243,249, 1);
+  padding: 20px;
+  margin: 20px;
+  font-weight: bold;
+  font-size: large;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+.pioneer-text-container {
+  padding: 10px;
+  background-color:rgb(240,243,249, 1);
+  opacity: 65%;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+.outside-container {
+display:flex;
+  width: 50%;
+  padding: 10px;
+  background-color:rgb(240,243,249, 1);
+  font-size: large;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  justify-content: space-evenly;
+  text-align: center;
+  }
+  .outside-text-container {
+    color:black;
+    background-color:rgb(240,243,249, 1);
+    margin-right: -75px;
+    opacity: 65%;
     }
-    .footer-container {
-    grid-area: footer;
-    background-color: rgb(69, 3, 77);
-    
+    .outside-image-container {
+width:50%;
     }
-    .footer-container2 {
-      display:flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-    
-    .social-container {
-      display: flex;
-    }
-    
-    .copyright-container {
+.hi-container {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.who-container {
+  display: flex;
+  background-color:rgb(240,243,249, 1);
+  padding:30px;
+}
+.about-me-text-container {
+  max-width: 100%;
+  padding-left: 10px;
+  color: black;
+  background-color:rgb(240,243,249, 1);
+  font-weight: bold;
+  font-size: large;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #5e1402;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #2b0a01;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color:rgb(240,243,249, 1);
+  padding: 20px;
+}
+.why-title-container {
+  align-items: center;
+  padding: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.why-container {
+  display:flex;
+  background-color:rgb(240,243,249, 1);
+  padding:30px;
+}
+.why-text-container {
+  max-width: 100%;
+  padding: 10px;
+  color: black;
+  background-color:rgb(240,243,249, 1);
+  font-weight: bold;
+  font-size: large;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.where-container {
+  display:flex;
+}
+.where-text-container {
+  background-color: rgb(240,243,249, 1);
+  padding: 30px;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+.pennies-container {
+  display: flex;
+  background-color:rgb(240,243,249, 1);
+padding:20px;
+}
+.pennies-text-container {
+min-width: 25%;
+max-width: 100%;
+margin-right: -300px;
+color: black;
+background-color:rgb(240,243,249, 1);
+opacity: 75%;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.pennies-image-container{
+align-self: flex-end;
+}
+.greybird-container {
+display:flex;
+}
+.greybird-text-container {
+  margin-right: -300px;
+  opacity: 75%;
+  margin-left: 10px;
+}
+.st-maries-container {
+  display:flex;
+  flex-direction: column;
+}
+.st-maries-text-container {
+color:rgb(240,243,249, 1);
+opacity: 75%;
+padding-right: 20px;
+margin-left: 20px;
+font-size: large;
+text-align: right;
+}
+.st-maries-image-container {
+  padding: 10px;
+  margin-top: -575px;
+  background-color: rgb(240,243,249, 1);
+}
+.amokuru-container {
+  display: flex;
+  align-items: center;
+}
+.amokuru-text-container>p:first-child{margin-top:10px;}
+.amokuru-text-container {
+    font-size: smaller;
+    padding-left: 20px;
+    margin-right: -150px;
+    opacity: 75%;
+}
+.amokuru-image-container {
+margin-left: 50px;
+}
+.monarch-container {
+  display: flex;
+  align-content: flex-end;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    margin-right: -600px;
     align-items: center;
-    
+}
+
+.monarch-text-container {
+  opacity: 65%;
+margin-right: -175px;
+align-items: center;
+background-color:rgb(240,243,249, 1);
+}
+@media only screen and (max-width: 480px) {
+  /* For mobile phones: */
+  .grid-container, 
+  .nav-container, 
+  .header-container, 
+  .ex-container,
+  .typeimg, 
+  .main, 
+  .footer-container, 
+  .footer-why-container,
+  .sandbagging-title, 
+  .sandbagging-container, 
+  .rainwoman-container, 
+  .late-nights-title, 
+  .late-nights-container, 
+  .time-bombs-container, 
+  .pie-title, 
+  .pie-and-beer-container, 
+  .pioneer-text-container, 
+  .outside-container, 
+  .outside-text-container, 
+  .outside-image-container, 
+  .hi-container, 
+  .who-container, 
+  .about-me-text-container, 
+  .container, 
+  .why-title-container, 
+  .why-container, 
+  .why-text-container,
+  .where-container,
+  .where-image-container,
+  .where-text-container, 
+  .pennies-container, 
+  .pennies-image-container, 
+  .pennies-text-container, 
+  .greybird-container, 
+  .greybird-text-container,
+  .st-maries-container,
+  .st-maries-text-container,
+  .st-maries-image-container,
+  .amokuru-container,
+  .amokuru-text-container,
+  .amokuru-image-container,
+  .monarch-container,
+  .monarch-text-container
+   {
+    width: 100%;
+  }
+  .nav-container, 
+  .pie-and-beer-container, 
+  .rainwoman-container,
+  .who-container,
+  .where-container {
+    flex-direction: column;
+  }
+  .why-container,
+  .late-nights-container {
+    flex-direction: column-reverse;
+  }
   
-    .section-container {
-      grid-area: img;
-    background-image: url(mother-daughter-hope-pexels-daria-obymaha-1683975.jpg);  
-    background-size: cover;
-    height: 1000px;
-  } */
-  
+    .pie-and-beer-container, 
+    .sandbagging-container,
+    .rainwoman-container,
+    .time-bombs-text-container,
+    .st-maries-text-container,
+    .st-maries-image-container, 
+    .greybird-text-container,
+    .who-container,
+    .ex-container,
+    .why-container {
+    margin:0px;
+    padding:0px;
+  }
+  .st-maries-text-container {
+  background-color: rgb(240,243,249, 1);
+  color:black;
+  opacity: 75%;
+  text-align: left;
+  }
+  .pennies-container {
+    flex-direction: column;
+    text-align: center;
+    padding:0px;
+} 
+.grey-image-container{
+    width: 100%;
+}
+.monarch-image-container {
+  display: flex;
+    flex-direction: row-reverse;
+}
+.monarch-text-container {
+  opacity: 75%;
+  text-align: center;
+}
+}
+}
